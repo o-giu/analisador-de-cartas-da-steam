@@ -1,0 +1,1 @@
+# analisador-de-cartas-da-steam
