@@ -11,7 +11,7 @@ Além disso, ele possui uma ferramenta para analisar lojas de pontos de canais d
 
 Antes de começar, você precisará de três coisas:
 
-1.  **Steam API Key**: Uma chave de acesso para que o programa possa consultar a API da Steam em seu nome. (Pode ser a APIKEY de qualquer conta steam, ela servirá apenas para ter acesso a algumas variáveis da steam, como: lista de jogos dos usuários.)
+1.  **Steam API Key**: Uma chave de acesso para que o programa possa consultar a API da Steam em seu nome. (Lembre-se de não divulgar sua APIKEY, ela é apenas sua) (O app aceita a APIKEY de qualquer conta steam, ela servirá apenas para ter acesso a algumas variáveis da steam, como: lista de jogos dos usuários.)
     *   Você pode obter uma aqui: [https://steamcommunity.com/dev/apikey](https://steamcommunity.com/dev/apikey)
 2.  **Seu Steam ID**: O identificador único da sua conta Steam. Pode ser sua URL personalizada (ex: `meu_nick_legal`) ou seu SteamID64 (um número de 17 dígitos). (O APP irá verificar o ID e ver a lista de jogos deste ID)
     *   Você pode encontrar o seu aqui: [https://steamdb.info/calculator/](https://steamdb.info/calculator/)
