@@ -56,6 +56,7 @@ Após a análise, os resultados são divididos em várias abas para facilitar a 
 
 ### Gerenciador de Jogos Concluídos
 
+**Adicione seus jogos concluídos na lista para a tabela funcionar corretamente.**
 Esta janela, acessada pelo botão "Gerenciar Drops Concluídos", permite que você mantenha uma lista personalizada de jogos cujos drops de cartas já foram esgotados. Isso evita que eles apareçam na aba "Drops Pendentes".
 Na sua Steam vá na página **Insignias** e clique no botão **Informações Sobre Pacotes Bônus** , selecione todos os jogos da lista e adicione eles em massa aos drops pendentes do app.
 Alguns jogos possuem nomes diferentes de acordo com a sua região, mas o app irá tentar buscar por esses nomes junto com o appid de cada jogo.
