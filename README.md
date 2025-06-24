@@ -1,7 +1,7 @@
 # Analisador de Cartas da Steam
 
 Parece meio doido, mas eu faço uma bela grana na steam com farm de cartas/pacotes e skins, então fiz isso.
-Fiz este app apenas para mim, mas fique a vontade para usar se quiser. Por enquanto eu não pretendo dar suporte ou traduzir o app.
+Fiz este app apenas para mim, mas fique a vontade para usar se quiser. **Por enquanto eu não pretendo dar suporte ou traduzir o app**.
 A intenção é agilizar a busca de jogos com cartas e me ajudar durante os meus farms de cartas.
 O app identifica quais jogos possuem cartas colecionáveis (mesmo quando o jogo não avisa isso na página da loja) e gerencia os que ainda têm drops pendentes na sua conta.
 Jogos pegos de "graça" não dropam cartas, então o app também consegue achar quais desses jogos você possui.
