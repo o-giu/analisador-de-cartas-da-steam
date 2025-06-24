@@ -1,11 +1,7 @@
 # Analisador de Cartas da Steam
 
-Parece meio doido, mas eu faço uma bela grana na steam com farm de cartas/pacotes e skins, então fiz isso.
-Fiz este app apenas para mim, mas fique a vontade para usar se quiser. **Por enquanto eu não pretendo dar suporte ou traduzir o app**.
-A intenção é agilizar a busca de jogos com cartas e me ajudar durante os meus farms de cartas. Me informando se eu já farmei tal jogo ou não, se já tenho ele ou não, e quanto ele custa.
-O app identifica quais jogos possuem cartas colecionáveis (mesmo quando o jogo não avisa isso na página da loja) e gerencia os que ainda têm drops pendentes na sua conta.
-Jogos pegos de "graça" não dropam cartas, então o app também consegue achar quais desses jogos você possui.
-Além disso, ele possui uma ferramenta para analisar lojas de pontos de canais da Twitch (via StreamElements) e encontrar jogos com cartas para você poder comprar com pontos, assim eu não preciso ficar caçando quais jogos tem drops ou não e quais eu ainda não tenho.
+Este aplicativo foi criado para otimizar o farm de cartas colecionáveis na Steam. Ele identifica jogos com drops (mesmo os "escondidos"), jogos pagos adicionados de "graça" na sua conta que deveriam te dar cartas, etc. Gerencia o progresso do seu farm e integra-se com lojas de pontos da Twitch para encontrar outros jogos com cartas que você ainda não possui.<br>
+**Nota:** $\textcolor{red}{Originalmente,\ fiz\ só\ para\ mim,\ mas\ decidi\ compartilhar\ caso\ seja\ útil\ para\ mais\ alguém.}$ <br>**Sem planos de suporte ou tradução**. Fique à vontade caso quiser utilizar.
 
 ## Pré-Requisitos
 
@@ -16,13 +12,13 @@ Antes de começar, você precisará de três coisas:
 2.  **Seu Steam ID**: O identificador único da sua conta Steam. Pode ser sua URL personalizada (ex: `meu_nick_legal`) ou seu SteamID64 (um número de 17 dígitos). (O APP irá verificar o ID e ver a lista de jogos deste ID)
     *   Você pode encontrar o seu aqui: [https://steamdb.info/calculator/](https://steamdb.info/calculator/)
 3.  **Arquivo CSV de Jogos com Cartas**: Um arquivo no formato `.csv` contendo a lista de todos os jogos na Steam que possuem cartas colecionáveis e os appids de cada jogo.
-    *   Use o arquivo .csv que eu coloquei aqui. Sempre irei atualizar o arquivo .csv com os novos jogos adicionados na steam que possuem cartas com a data atual.
+    *   O arquivo .csv que eu disponibilizo já vem com todos os nomes dos jogos e os seus appids. Sempre irei atualizar o arquivo .csv com os novos jogos adicionados na steam que possuem cartas com a data atual.
 
 ## Passo a Passo Inicial
 
 1.  Abra o aplicativo.
 2.  Preencha os campos na seção **Configuração**.
-3.  Clique no botão **Analisar Biblioteca**.
+3.  Clique no botão **Analisar Biblioteca**. (Caso a conexão não for estabelecida com a API, espere e tente novamente.)
 4.  Aguarde a análise ser concluída. Os resultados aparecerão nas abas correspondentes.
 
 ## Visão Geral das Funcionalidades
@@ -37,7 +33,7 @@ A tela inicial é onde você insere suas informações e inicia a análise.
 | **Seu Steam ID** | Insira sua URL personalizada da Steam ou seu SteamID64. |
 | **Arquivo CSV** | Clique em "Procurar..." para selecionar o arquivo CSV com a lista de jogos que dropam cartas. |
 | **Botão: Analisar Biblioteca** | O botão principal. Ao clicar, o app irá: buscar seus jogos, compará-los com a lista do CSV e popular as abas de resultados. |
-| **Botão: Gerenciar Drops Concluídos** | Abre uma nova janela para você gerenciar a lista de jogos cujos drops de cartas você já considera "concluídos". |
+| **Botão: Gerenciar Drops Concluídos** | Abre uma nova janela para você gerenciar a lista de jogos cujos drops de cartas você já considera "concluídos". (Estes jogos podem ser encontrados na página de insignias da Steam e depois clicando no botão **Informações Sobre Pacotes Bônus**, copie todos os nomes e cole no campo dos jogos concluídos.) |
 
 ### Abas de Resultados
 
@@ -53,6 +49,7 @@ Após a análise, os resultados são divididos em várias abas para facilitar a 
 
 **Observação:** Nas abas "Jogos que Não Possuo" e "Drops Pendentes", você pode clicar no cabeçalho das colunas para ordenar a lista.
 **Observação:** Durante a busca, caso existir nomes iguais, uma lista com todos os nomes iguais será mostrada, pedindo para você escolher um.
+**Observação:** Alguns jogos banidos pela Steam, podem aparecer nas tabelas erradas pelo fato de não ter como acessar a loja desses jogos.
 
 ### Gerenciador de Jogos Concluídos
 
