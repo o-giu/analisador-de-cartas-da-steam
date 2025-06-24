@@ -46,17 +46,19 @@ Após a análise, os resultados são divididos em várias abas para facilitar a 
 | Aba | O que ela mostra? |
 | :--- | :--- |
 | **Informações** | Um console de log que exibe o progresso da análise, mensagens de erro e outras informações úteis. |
-| **Loja de Pontos** | Uma ferramenta para analisar lojas do StreamElements. Cole a URL da loja, clique em "Analisar Loja" e o app listará apenas os **jogos com cartas que você não possui**, ordenados por custo em pontos. |
+| **Loja de Pontos** | Uma ferramenta para analisar lojas do StreamElements. Cole a URL completa da loja, clique em "Analisar Loja" e o app listará apenas os **jogos com cartas que você não possui**, ordenados por custo em pontos. |
 | **Jogos que Possuo** | Uma lista de todos os jogos da sua biblioteca que têm cartas colecionáveis. |
-| **Jogos que Não Possuo** | Uma lista de jogos com cartas que **não** estão na sua biblioteca. Os preços são buscados automaticamente. Você pode ocultar jogos grátis e atualizar os preços manualmente. |
-| **Drops Pendentes de Cartas** | Mostra os jogos que você possui e que têm cartas, mas que **não** foram marcados como "concluídos" no gerenciador. É a sua lista de jogos para "farmar" ou comprar. |
+| **Jogos que Não Possuo** | Uma lista de jogos com cartas que **não** estão na sua biblioteca. Os preços são buscados automaticamente. Você pode ocultar jogos grátis, atualizar os preços manualmente e buscar por jogos expecificos. |
+| **Drops Pendentes de Cartas** | Mostra os jogos que você possui e que têm cartas, mas que **não** foram marcados como "concluídos" no gerenciador. É a sua lista de jogos para "farmar" ou comprar. Você também pode buscar por jogos expecificos. |
 
-**Observação:** Nas abas "Jogos que Não Possuo" e "Drops Pendentes", você pode clicar no cabeçalho das colunas (Preço) para ordenar a lista.
+**Observação:** Nas abas "Jogos que Não Possuo" e "Drops Pendentes", você pode clicar no cabeçalho das colunas para ordenar a lista.
+**Observação:** Durante a busca, caso existir nomes iguais, uma lista com todos os nomes iguais será mostrada, pedindo para você escolher um.
 
 ### Gerenciador de Jogos Concluídos
 
 Esta janela, acessada pelo botão "Gerenciar Drops Concluídos", permite que você mantenha uma lista personalizada de jogos cujos drops de cartas já foram esgotados. Isso evita que eles apareçam na aba "Drops Pendentes".
 Na sua Steam vá na página **Insignias** e clique no botão **Informações Sobre Pacotes Bônus** , selecione todos os jogos da lista e adicione eles em massa aos drops pendentes do app.
+Alguns jogos possuem nomes diferentes de acordo com a sua região, mas o app irá tentar buscar por esses nomes junto com o appid de cada jogo.
 Caso ele não detectar alguns jogos, uma lista desses jogos será informada para você adicionar eles manualmente.
 
 | Funcionalidade | Descrição |
@@ -64,17 +66,9 @@ Caso ele não detectar alguns jogos, uma lista desses jogos será informada para
 | **Lista de Jogos** | Exibe todos os jogos que você marcou como concluídos. |
 | **Adicionar Manualmente** | Permite adicionar um jogo à lista informando seu nome e App ID. |
 | **Adicionar em Massa** | Permite colar uma lista de nomes de jogos ou App IDs (um por linha) para adicioná-los de uma só vez. Na sua Steam vá na página **Insignias** e clique no botão **Informações Sobre Pacotes Bônus** , selecione todos os jogos da lista e adicione eles em massa aos drops pendentes do app. Caso ele não detectar alguns jogos, uma lista desses jogos será informada para você adicionar eles manualmente. |
-| **Remover Selecionados** | Remove os jogos que você selecionou na lista. Para remover em massa use CTRL+A para selecionar tudo de uma só vez. |
+| **Remover Selecionados** | Remove os jogos que você selecionou na lista. Para remover em massa use CTRL+A para selecionar tudo de uma só vez ou CTRL+clique para selecionar múltiplos jogos de forma expecifica. |
+| **Busca** | Busca por jogos expecificos na lista. |
 | **Salvar e Fechar** | Salva suas alterações no arquivo `jogos_concluidos.json` e fecha a janela, atualizando a aba "Drops Pendentes". |
-
-### Problemas
-
-Alguns jogos que você tem, podem aparecer na lista dos jogos que você ainda não possui, mas você pode arrumar este problema adicionando o Nome do Jogo e o ID de forma manual nos jogos concluídos.
-
-| Problemas | Descrição |
-| :--- | :--- |
-| **Jogos Banidos** | Jogos banidos na Steam podem aparecer na lista errada, você pode forçar o jogo na lista certa adicionando o Nome e o ID do jogo manualmente nos jogos concluídos. |
-| **Jogos com diferentes Nomes** | Alguns jogos possuem traduções diferentes dependendo do país, você pode forçar o jogo na lista certa adicionando o Nome e o ID do jogo manualmente nos jogos concluídos. |
 
 ## Arquivos Gerados
 
