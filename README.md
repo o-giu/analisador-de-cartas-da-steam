@@ -1,7 +1,8 @@
 # Analisador de Cartas da Steam
 
-Este aplicativo foi criado para otimizar o farm de cartas colecionáveis na Steam. Ele identifica jogos com drops (mesmo os "escondidos"), jogos pagos adicionados de "graça" na sua conta que deveriam te dar cartas, etc. Gerencia o progresso do seu farm e integra-se com lojas de pontos da Twitch para encontrar outros jogos com cartas que você ainda não possui.<br>
-**Nota:** $\textcolor{red}{Originalmente,\ fiz\ só\ para\ mim,\ mas\ decidi\ compartilhar\ caso\ seja\ útil\ para\ mais\ alguém.}$ <br>**Sem planos de suporte ou tradução**. Fique à vontade caso quiser utilizar.
+**Nota:** $\textcolor{red}{Originalmente,\ fiz\ só\ para\ mim,\ mas\ decidi\ compartilhar\ caso\ seja\ útil\ para\ mais\ alguém.}$ <br>**Sem planos de suporte ou tradução**. Fique à vontade caso quiser utilizar.<br>
+Farm de cartas da Steam? Você ficaria surpreso com o tanto de grana que eu faço com isso! :)<br>
+Este aplicativo foi criado para otimizar o farm de cartas colecionáveis na Steam e informar quais jogos você precisa comprar ou substituir (Caso tiver pego algum jogo de "graça") para famar. Ele identifica jogos com drops (mesmo os "escondidos"), jogos pagos adicionados de "graça" na sua conta que deveriam te dar cartas, etc. Gerencia o progresso do seu farm e integra-se com lojas de pontos da Twitch para encontrar outros jogos com cartas que você ainda não possui.<br>
 
 ## Pré-Requisitos
 
