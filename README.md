@@ -48,9 +48,9 @@ Após a análise, os resultados são divididos em várias abas para facilitar a 
 | **Jogos que Não Possuo** | Uma lista de jogos com cartas que **não** estão na sua biblioteca. Os preços são buscados automaticamente. Você pode ocultar jogos grátis, atualizar os preços manualmente e buscar por jogos expecificos. |
 | **Drops Pendentes de Cartas** | Mostra os jogos que você possui e que têm cartas, mas que **não** foram marcados como "concluídos" no gerenciador. É a sua lista de jogos para "farmar" ou comprar. Você também pode buscar por jogos expecificos. |
 
-**Observação:** Nas abas "Jogos que Não Possuo" e "Drops Pendentes", você pode clicar no cabeçalho das colunas para ordenar a lista.
-**Observação:** Durante a busca, caso existir nomes iguais, uma lista com todos os nomes iguais será mostrada, pedindo para você escolher um.
-**Observação:** Alguns jogos banidos pela Steam, podem aparecer nas tabelas erradas pelo fato de não ter como acessar a loja desses jogos.
+**Observação:** Nas abas "Jogos que Não Possuo" e "Drops Pendentes", você pode clicar no cabeçalho das colunas para ordenar a lista.<br>
+**Observação:** Durante a busca, caso existir nomes iguais, uma lista com todos os nomes iguais será mostrada, pedindo para você escolher um.<br>
+**Problemas:** Alguns jogos banidos pela Steam ou com status de perfil limitado, podem aparecer nas tabelas erradas. Adicione eles de forma manual.
 
 ### Gerenciador de Jogos Concluídos
 
