@@ -4,7 +4,7 @@
 
 **Nota:** $\textcolor{red}{Originalmente,\ fiz\ só\ para\ mim,\ mas\ decidi\ compartilhar\ caso\ seja\ útil\ para\ mais\ alguém.}$ <br>**Sem planos de suporte ou tradução**. Fique à vontade caso quiser utilizar.<br>
 Farm de cartas da Steam? Você ficaria surpreso com o tanto de grana que eu faço com isso! :)<br>
-Este aplicativo foi criado para otimizar o farm de cartas colecionáveis na Steam e informar quais jogos você precisa comprar ou substituir (Caso tiver pego algum jogo de "graça") para famar. Ele identifica jogos com drops (mesmo os "escondidos"), jogos pagos adicionados de "graça" na sua conta que deveriam te dar cartas, etc. Gerencia o progresso do seu farm e integra-se com lojas de pontos da Twitch para encontrar outros jogos com cartas que você ainda não possui.<br>
+Este aplicativo foi criado para otimizar o farm de cartas colecionáveis na Steam e informar quais jogos você precisa comprar ou substituir (Caso tiver pego algum jogo de "graça") para famar. Ele identifica jogos com drops (mesmo os "escondidos"), jogos pagos adicionados de "graça" na sua conta que deveriam te dar cartas, etc. Gerencia o progresso do seu farm e integra-se com lojas de pontos do StreamElements para encontrar outros jogos com cartas que você ainda não possui.<br>
 
 ![image](https://github.com/user-attachments/assets/3a61bb45-a24b-4893-9728-0a68a7349391)
 ![image](https://github.com/user-attachments/assets/f38e2715-fc4f-4f06-8492-20f3b81208cf)
