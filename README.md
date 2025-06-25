@@ -1,8 +1,8 @@
-# Analisador de Cartas da Steam
+# 📈 Analisador de Cartas da Steam
 
 [Download](https://github.com/o-giu/analisador-de-cartas-da-steam/releases)
 
-**Nota:** $\textcolor{red}{Originalmente,\ fiz\ só\ para\ mim,\ mas\ decidi\ compartilhar\ caso\ seja\ útil\ para\ mais\ alguém.}$ <br>**Sem planos de suporte ou tradução**. Fique à vontade caso quiser utilizar.<br>
+🧾 **Nota:** $\textcolor{red}{Originalmente,\ fiz\ só\ para\ mim,\ mas\ decidi\ compartilhar\ caso\ seja\ útil\ para\ mais\ alguém.}$ <br>**Sem planos de suporte ou tradução**. Fique à vontade caso quiser utilizar.<br>
 Farm de cartas da Steam? Você ficaria surpreso com o tanto de grana que eu faço com isso! :)<br>
 Este aplicativo foi criado para otimizar o farm de cartas colecionáveis na Steam e informar quais jogos você precisa comprar ou substituir (Caso tiver pego algum jogo de "graça") para famar. Ele identifica jogos com drops (mesmo os "escondidos"), jogos pagos adicionados de "graça" na sua conta que deveriam te dar cartas, etc. Gerencia o progresso do seu farm e integra-se com lojas de pontos do StreamElements para encontrar outros jogos com cartas que você ainda não possui.<br>
 
@@ -13,7 +13,7 @@ Este aplicativo foi criado para otimizar o farm de cartas colecionáveis na Stea
 ![image](https://github.com/user-attachments/assets/08fa298a-21e1-47c0-a911-1a941a23fc75)
 ![image](https://github.com/user-attachments/assets/beecd948-19fc-4095-959d-33a62d4ac7e0)
 
-## Pré-Requisitos
+## ✔️ Pré-Requisitos
 
 Antes de começar, você precisará de três coisas:
 
@@ -24,16 +24,16 @@ Antes de começar, você precisará de três coisas:
 3.  **Arquivo CSV de Jogos com Cartas**: Um arquivo no formato `.csv` contendo a lista de todos os jogos na Steam que possuem cartas colecionáveis e os appids de cada jogo.
     *   O arquivo .csv que eu disponibilizo já vem com todos os nomes dos jogos e os seus appids. Sempre irei atualizar o arquivo .csv com os novos jogos adicionados na steam que possuem cartas com a data atual.
 
-## Passo a Passo Inicial
+## ⚙️ Passo a Passo Inicial
 
 1.  Abra o aplicativo.
 2.  Preencha os campos na seção **Configuração**.
 3.  Clique no botão **Analisar Biblioteca**. (Caso a conexão não for estabelecida com a API, espere e tente novamente.)
 4.  Aguarde a análise ser concluída. Os resultados aparecerão nas abas correspondentes.
 
-## Visão Geral das Funcionalidades
+## 📝 Visão Geral das Funcionalidades
 
-### Tela Principal e Configuração
+### 🛠️ Tela Principal e Configuração
 
 A tela inicial é onde você insere suas informações e inicia a análise.
 
@@ -45,7 +45,7 @@ A tela inicial é onde você insere suas informações e inicia a análise.
 | **Botão: Analisar Biblioteca** | O botão principal. Ao clicar, o app irá: buscar seus jogos, compará-los com a lista do CSV e popular as abas de resultados. |
 | **Botão: Gerenciar Drops Concluídos** | Abre uma nova janela para você gerenciar a lista de jogos cujos drops de cartas você já considera "concluídos". (Estes jogos podem ser encontrados na página de insignias da Steam e depois clicando no botão **Informações Sobre Pacotes Bônus**, copie todos os nomes e cole no campo dos jogos concluídos.) |
 
-### Abas de Resultados
+### 📋 Abas de Resultados
 
 Após a análise, os resultados são divididos em várias abas para facilitar a visualização.
 
@@ -61,7 +61,7 @@ Após a análise, os resultados são divididos em várias abas para facilitar a 
 **Observação:** Durante a busca, caso existir nomes iguais, uma lista com todos os nomes iguais será mostrada, pedindo para você escolher um.<br>
 **Problemas:** Alguns jogos banidos pela Steam ou com status de perfil limitado, podem aparecer nas tabelas erradas. Adicione eles de forma manual.
 
-### Gerenciador de Jogos Concluídos
+### 🛠️ Gerenciador de Jogos Concluídos
 
 **Adicione seus jogos concluídos na lista para a tabela funcionar corretamente.**
 Esta janela, acessada pelo botão "Gerenciar Drops Concluídos", permite que você mantenha uma lista personalizada de jogos cujos drops de cartas já foram esgotados. Isso evita que eles apareçam na aba "Drops Pendentes".
@@ -78,7 +78,7 @@ Caso ele não detectar alguns jogos, uma lista desses jogos será informada para
 | **Busca** | Busca por jogos expecificos na lista. |
 | **Salvar e Fechar** | Salva suas alterações no arquivo `jogos_concluidos.json` e fecha a janela, atualizando a aba "Drops Pendentes". |
 
-## Arquivos Gerados
+## 📋 Arquivos Gerados
 
 O aplicativo cria um arquivo no mesmo diretório onde ele é executado:
 
