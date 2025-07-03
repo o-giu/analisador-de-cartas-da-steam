@@ -59,7 +59,7 @@ Após a análise, os resultados são divididos em várias abas para facilitar a 
 
 **Observação:** Nas abas "Jogos que Não Possuo" e "Drops Pendentes", você pode clicar no cabeçalho das colunas para ordenar a lista.<br>
 **Observação:** Durante a busca, caso existir nomes iguais, uma lista com todos os nomes iguais será mostrada, pedindo para você escolher um.<br>
-**Problemas:** Alguns jogos banidos pela Steam ou com status de perfil limitado, podem aparecer nas tabelas erradas. Adicione eles de forma manual.
+**Problemas:** Alguns jogos banidos pela Steam ou com status de perfil limitado ou com os nomes diferentes devido a região, podem aparecer nas tabelas erradas. Adicione eles de forma manual.
 
 ### 🛠️ Gerenciador de Jogos Concluídos
 
